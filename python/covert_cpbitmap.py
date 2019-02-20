@@ -50,7 +50,7 @@ def func2():
         f.seek(0)
         imgd = img.load()
 
-        # Take case of the line size
+        # Take care of the line size
         line_size = int(math.ceil(width/16.0) * 16)
         print line_size
         for y in range(height):

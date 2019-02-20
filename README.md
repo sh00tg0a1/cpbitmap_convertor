@@ -48,14 +48,18 @@ cpbitmap 几个特点:
 
 ## 参考资料
 
-获取锁屏图片的大小：
+获取锁屏图片的大小:
+
 <https://forums.macrumors.com/threads/iphone-6-plus-wallpaper-dimensions.1775299/page-2>
+
 Github 上别人都示例，但是由于在线转换的网站被关了，所以也无法实现:
 https://gist.github.com/sillygwailo/6631402
 
-StackOverflow 上的示例代码：
+StackOverflow 上的示例代码:
+
 python 和 js 都有，只有 js 的有用
 <https://stackoverflow.com/questions/7998324/dot-cpbitmap-images-imgaename-cpbitmap/48158807#48158807?newreg=3f67b42138bc4f45ad965478aa9c08d9>
 
 最后根据 Github 上下面的代码和上述链接才构成现在的代码
+
 <https://gist.github.com/sfan5/8280735>
