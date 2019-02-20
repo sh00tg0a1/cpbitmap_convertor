@@ -26,6 +26,16 @@
 
 5. 将 cpbitmap 文件转成图片文件，可以使用下面两个目录中的脚本
 
+## Step 3 使用 Python 或 JS 代码进行图片导出
+
+1. 从 Python 和 JS 中选择一个语言
+2. 准备环境
+  2.1 Python 需要依赖 python2 和 PIL `pip install pillow`
+  2.2 JS 需要 npm install
+3. 运行代码
+  3.1 Python: `python covert_cpbitmap.py {source} {destination}`
+  3.2 JS: `node index.js {source} {destination}`
+
 ## 说明
 
 这里插曲很多，好像是因为 iOS11 改变了 cpbitmap 的格式，导致网上的很多方法不能用了。
