@@ -63,4 +63,3 @@ def func2():
         img.save(sys.argv[2])
 
 func2()
-#func1()
