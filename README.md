@@ -33,8 +33,8 @@
     1. Python: `pip install -r python/requirements.txt`
     2. JS: `npm install`
 3. 运行代码
-    1. Python: `python convert_cpbitmap.py {source} {destination}`
-    2. JS: `node index.js {source} {destination}`
+    1. Python: `python python/convert_cpbitmap.py {source} {destination}`
+    2. JS: `node js/index.js {source} {destination}`
 
 ## 说明
 
