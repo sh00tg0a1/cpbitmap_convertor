@@ -10,7 +10,7 @@ extracted from an iOS backup into regular PNG images.
 When you set a photo as your iPhone wallpaper and later delete that photo, you
 can still recover it from a device backup. The general steps are:
 
-1. Back up the iPhone using iTunes.
+1. Back up your iPhone using iTunes.
 2. Use a tool such as iPhone Backup Extractor to export the home directory
    from the backup.
 3. Locate the `cpbitmap` files that store the wallpapers and convert them with
@@ -18,8 +18,7 @@ can still recover it from a device backup. The general steps are:
 
 ## Step 1 Backup
 
-1. Back up your device with iTunes. You may need to update iTunes to match your
-iOS version.
+1. Back up your device in iTunes. You may need to update iTunes to a version compatible with your iOS.
 2. Choose to store the backup locally.
 
 ## Step 2 Extract files from the backup
