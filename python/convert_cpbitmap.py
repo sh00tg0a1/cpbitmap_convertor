@@ -12,7 +12,6 @@ import struct
 import sys
 from pathlib import Path
 
-from PIL import Image
 
 
 def _extract_size(data: bytes) -> tuple[int, int]:
@@ -38,6 +37,7 @@ def _read_pixels(data: bytes, width: int, height: int) -> bytes:
 
 def convert(src: Path, dst: Path) -> None:
     """将 ``src`` 转换为 PNG 并保存到 ``dst``。"""
+    from PIL import Image
     data = src.read_bytes()
     width, height = _extract_size(data)
     if width <= 0 or height <= 0:
